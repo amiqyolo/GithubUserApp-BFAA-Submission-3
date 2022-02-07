@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Github User App</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="info_repository">Repository</string>
+    <string name="info_following">Following\n</string>
+    <string name="info_follower">Followers\n</string>
+    <string name="detail_title">Detail Profile</string>
+    <string name="title_state_empty">Data Doesn\'t Exist.</string>
+    <string name="title_state_server">Connection Problem.</string>
+    <string name="title_followers_empty">Followers Doesn\'t Exist.</string>
+    <string name="title_following_empty">Following Doesn\'t Exist..</string>
+    <string name="title_favorite_empty">Data Favorite Doesn\'t Exist.</string>
+    <string name="message_state_empty">Dont worry, Search user in the SearchBox.</string>
+    <string name="message_state_server">Error %s.</string>
+    <string name="message_followers_empty">User has no Followers.</string>
+    <string name="message_following_empty">User has no Following.</string>
+    <string name="message_favorite_empty">Add User to Favorite List.</string>
+    <string name="settings">Settings</string>
+    <string name="favorites">Favorites</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="detail_no_name">No Name</string>
+    <string name="detail_no_company">No Company</string>
+    <string name="detail_no_location">No Location</string>
+</resources>

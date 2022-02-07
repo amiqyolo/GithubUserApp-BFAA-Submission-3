@@ -1,0 +1,115 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubUserApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryDarkColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="appBarLayoutStyle">@style/AppBarBackground</item>
+        <item name="toolbarStyle">@style/ToolbarTheme</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="civ_border_color">@color/primaryLightDarkMode</item>
+        <item name="tabStyle">@style/TabBackground</item>
+    </style>
+
+    <style name="TabBackground" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/primaryLightColor</item>
+    </style>
+
+    <style name="AppBarMainBackground">
+        <item name="android:background">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="Theme.GithubUserApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GithubSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/onBackgroundColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_github_mark_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.GithubUserApp.NoActionBar</item>
+    </style>
+
+    <style name="Theme.GithubUserApp.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.GithubUserApp.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="AppBarBackground" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="BackgroundHeader">
+        <item name="android:background">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextContent.ColorItem">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="TextContent.Header">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextContent.ColorItem.Row">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="TextContent.Field">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="drawableTint">@color/primaryLightTextColor</item>
+    </style>
+
+    <style name="TextInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInfo.ItemColor">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="TextInfo.ItemColor.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextInfo.ItemColor.Center.Field">
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+    </style>
+
+    <style name="TextInfo.Center">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="ItemIconImage">
+        <item name="tint">@color/secondaryTextColor</item>
+    </style>
+
+</resources>
